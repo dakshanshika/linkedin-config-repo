@@ -7,4 +7,6 @@ spring:
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
         spring.json:
+          value.default.type: com.demo.linkedinProject.notification_service.event.PostCreated
           trusted.packages: com.demo.linkedinProject.*
+          
